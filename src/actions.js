@@ -1,6 +1,6 @@
-export function dropTile(colnum) {
+export function dropTile(colNum) {
     return {
         type: 'DROP_TILE',
-        payload: colnum,
+        payload: colNum,
     };
 }
